@@ -1,3 +1,4 @@
+/*
 provider "aws" {
   region     = var.region
   access_key = var.access_key
@@ -53,3 +54,4 @@ resource "aws_rds_cluster_instance" "cluster_instances" {
   engine_version      = aws_rds_cluster.aurorards.engine_version
   publicly_accessible = true
 }
+*/
